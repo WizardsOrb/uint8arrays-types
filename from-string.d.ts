@@ -11,7 +11,7 @@ export = fromString;
  * @returns {Uint8Array}
  * @see {@link https://www.npmjs.com/package/multibase|multibase} for supported encodings other than `utf8`
  */
-type Multibase =
+type Encodings =
 | 'base1'
 | 'base2'
 | 'base8'
@@ -27,6 +27,8 @@ type Multibase =
 | 'base64'
 | 'base64pad'
 | 'base64url'
-| 'base64urlpad';
-type Encodings = "utf8" | "ascii" | string
-declare function fromString(string: string, encoding?: Multibase & Encodings): Uint8Array;
+| 'base64urlpad'
+| 'ascii'
+| 'utf8'
+
+declare function fromString(string: string, encoding?: Encodings): Uint8Array;

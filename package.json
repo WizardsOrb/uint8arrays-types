@@ -1,6 +1,6 @@
 {
     "name": "@types/uint8arrays",
-    "version": "47.0.1",
+    "version": "0.0.1",
     "description": "TypeScript definitions uint8arrays",
     "license": "MIT",
     "contributors": [],
@@ -10,8 +10,7 @@
     "author": "@kodex/wizardsorb",
     "homepage": "https://kodexdata.systems",
     "dependencies": {
-        "@types/node": "*",
-        "@types/multibase": "^0.6.0"
+        "@types/node": "*"
     },
     "typeScriptVersion": "4.0.3",
     "devDependencies": {}
