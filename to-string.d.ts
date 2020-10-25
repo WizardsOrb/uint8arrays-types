@@ -28,5 +28,5 @@ type Multibase =
 | 'base64pad'
 | 'base64url'
 | 'base64urlpad';
-type Encodings = "utf8" | string
+type Encodings = "utf8" | "ascii" | string
 declare function toString(array: Uint8Array, encoding?: Multibase & Encodings): string;
